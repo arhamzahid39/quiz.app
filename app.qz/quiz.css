@@ -1,0 +1,64 @@
+.download-results {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    
+}
+.score-container {
+	margin-top: 20px;
+}
+
+
+body{
+   background-color: cadetblue;
+}
+.score-container {
+	margin-top: 20px;
+}
+.quiz-container {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: darkorange;
+}
+
+.question-container {
+	margin-bottom: 20px;
+}
+
+.answer-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.answer {
+	width: 48%;
+	height: 50px;
+	margin-bottom: 10px;
+	background-color: #ddd;
+	color: #333;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+@media (max-width: 480px) {
+	.answer-container {
+		flex-direction: column;
+	}
+
+	.answer {
+		width: 100%;
+	}
+}
+body{
+    text-align: center;
+}
